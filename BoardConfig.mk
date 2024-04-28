@@ -85,7 +85,6 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 KERNEL_DEFCONFIG := munch_defconfig
 
 KERNEL_LLVM_SUPPORT := true
-KERNEL_FULL_LLVM := true
 KERNEL_CUSTOM_LLVM := true
 
 # Lineage Health
