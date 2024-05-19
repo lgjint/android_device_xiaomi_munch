@@ -276,6 +276,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPAMunchFrameworksOverlay \
+	CertifiedPropsOverlay \
     MunchCNSettingsProviderOverlay \
     MunchCNWifiOverlay \
     MunchCarrierConfigOverlay \

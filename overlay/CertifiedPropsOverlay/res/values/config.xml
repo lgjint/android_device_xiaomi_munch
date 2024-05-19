@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Build properties from a GMS certified device against current platform SPL level -->
+    <string-array name="config_certifiedBuildProperties" translatable="false">
+        <item>MANUFACTURER:motorola</item>
+        <item>BRAND:motorola</item>
+        <item>DEVICE:clark</item>
+        <item>PRODUCT:clark_retus</item>
+        <item>MODEL:XT1575</item>
+        <item>FINGERPRINT:motorola/clark_retus/clark:6.0/MPHS24.49-18-8/4:user/release-keys</item>
+        <item>SECURITY_PATCH:2016-09-01</item>
+    </string-array>
+</resources>
