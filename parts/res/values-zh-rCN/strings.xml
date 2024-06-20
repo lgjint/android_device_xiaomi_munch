@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- 环境设置 -->
+    <string name="ambient_enable">使用环境显示</string>
+
+    <!-- 热量配置文件 -->
+    <string name="thermal_title">温控配置文件</string>
+    <string name="thermal_summary">每个应用程序的温控配置</string>
+    <string name="thermal_default">默认</string>
+    <string name="thermal_benchmark">基准测试</string>
+    <string name="thermal_browser">浏览器</string>
+    <string name="thermal_camera">相机</string>
+    <string name="thermal_dialer">拨号器</string>
+    <string name="thermal_gaming">游戏</string>
+    <string name="thermal_streaming">流媒体</string>
+
+    <!-- 清除扬声器 -->
+    <string name="clear_speaker_title">清理扬声器</string>
+    <string name="clear_speaker_summary">播放一段约 30 秒的音频来清理扬声器</string>
+    <string name="clear_speaker_description">当扬声器被少量灰尘覆盖时，将音量调至最大运行 1-2 次。\n\n当扬声器充满灰尘时将扬声器朝下轻轻摇晃您的设备，运行 2-5 次。\n\n警告：确保运行前耳机已经拔下。</string>
+
+    <!-- 每个应用程序刷新率 -->
+    <string name="refresh_title">每个应用程序刷新率</string>
+    <string name="refresh_summary">为特定应用程序设置最大刷新率</string>
+    <string name="refresh_default">默认</string>
+    <string name="refresh_standard">60Hz</string>
+    <string name="refresh_extreme">120Hz</string>
+
+    <!-- HBM 设置 -->
+    <string name="hbm_fragment_title">高亮度模式</string>
+    <string name="hbm_fragment_summary">自定义高亮度模式首选项</string>
+    <string name="hbm_mode_title">高亮度模式</string>
+    <string name="hbm_mode_summary">启用峰值亮度</string>
+    <string name="auto_hbm_title">自动高亮度模式</string>
+    <string name="auto_hbm_summary">根据阳光启用峰值亮度</string>
+    <string name="auto_hbm_threshold_title">阈值（勒克斯）</string>
+    <string name="auto_hbm_threshold_summary">阈值（勒克斯）</string>
+    <string name="auto_hbm_mode_warning">自动高亮度模式需要打开自动亮度调节才能工作</string>
+
+    <!-- DC 调光设置 -->
+    <string name="dc_dimming_enable_title">防闪烁模式</string>
+    <string name="dc_dimming_enable_summary">在低光条件下减轻眼睛疲劳</string>
+    <string name="dc_dimming_enable_summary_not_supported">内核当前不支持防闪烁模式</string>
+
+</resources>
