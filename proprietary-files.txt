@@ -717,18 +717,11 @@ vendor/firmware/a620_zap.elf
 vendor/firmware/a620_zap.mdt
 vendor/firmware/a630_sqe.fw
 vendor/firmware/a650_gmu.bin
-vendor/firmware/a650_sqe.fw
 vendor/firmware/a650_zap.b00
 vendor/firmware/a650_zap.b01
 vendor/firmware/a650_zap.b02
 vendor/firmware/a650_zap.elf
 vendor/firmware/a650_zap.mdt
-
-# HotwordEnrollment
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
--system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # IPA-Firmware
 vendor/firmware/ipa_fws.b00
@@ -1302,3 +1295,37 @@ vendor/lib/libwfduibcsrcinterface_proprietary.so|bfd97b6d662657234774a3c9c87f8a0
 vendor/lib/libwfdutils_proprietary.so|67df61c8ed10620bd5e2059720903627762df6ec
 vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so|c08e1803c3089ee5da37b0a56eb9c2bdf9aeb4b2
 vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so|fefea0a3279f850e562cfaaf4fe3b24af1dd3994
+
+
+# Graphics (Adreno) - from Adreno v767 tryigit
+vendor/firmware/a650_sqe.fw|a011deb174929b874fb668d7c8041cfb712b6417
+vendor/lib/egl/eglSubDriverAndroid.so|186a7492f8a8fad9f328de66f136037859cc3243
+vendor/lib/egl/libEGL_adreno.so|5d0ba70e4f06d0387c454eeabd7c2def4691522d
+vendor/lib/egl/libGLESv1_CM_adreno.so|f6c873bff4841dc97cc92c3fe380a5b905de1fcc
+vendor/lib/egl/libGLESv2_adreno.so|493bf795c5c7cecb95e342ad3226265a12ac0e07
+vendor/lib/egl/libq3dtools_adreno.so|a1cee98cc08c2790b196e159eddc2fb59972a203
+vendor/lib/egl/libq3dtools_esx.so|1b695c166e37ea52507888f426403895f439785b
+vendor/lib/hw/vulkan.adreno.so|a0e906762121537eab6c96bf5d5b2eb7ea49f66f
+vendor/lib/libadreno_app_profiles.so|991a98bef1a4e7e47d5120c2bf0080e1cc78388b
+vendor/lib/libadreno_utils.so|f94712d5579a08492bcd8720cdbbb0c469e7a5b7
+vendor/lib/libC2D2.so|8035bd67ddf3c7841bc049a12bfdb2d808f8c915
+vendor/lib/libc2d30_bltlib.so|799ea446f645ba46d86b8eccf48d8b5ba060e416
+vendor/lib/libdmabufheap.so|f42972808368d229ea3cf913459a3e231abd6fe1
+vendor/lib/libgsl.so|7718435f6467cba18015b3edbd4aef388b600f8e
+vendor/lib/libllvm-glnext.so|08a98a99e2589a801b982ec41b0394964cab812b
+vendor/lib/libllvm-qgl.so|acaad75df9d3880dc46953697b60fc088ceb02a9
+vendor/lib64/egl/eglSubDriverAndroid.so|18eb99b76812f8e8bab17bd09020b4f7210f76dd
+vendor/lib64/egl/libEGL_adreno.so|a448d2290310c0f1c53494c35a381eb5f0a55858
+vendor/lib64/egl/libGLESv1_CM_adreno.so|f3eb5dc5852eae8e4e3cc3e66781b5ce1eac95e5
+vendor/lib64/egl/libGLESv2_adreno.so|89b878df457d2fe160a5235c564db78203c8f5dc
+vendor/lib64/egl/libq3dtools_adreno.so|0b158f7c3836e6ae157b5bd58b2a8d166532581b
+vendor/lib64/egl/libq3dtools_esx.so|ae11168a5bbe9264ef59aa923ed3142f0b85491d
+vendor/lib64/hw/vulkan.adreno.so|07968625470ae6e556b647314f7b39e35a6dba19
+vendor/lib64/libadreno_app_profiles.so|235286c8c63357cbc8f1cb5c046ac75a9dc219e8
+vendor/lib64/libadreno_utils.so|624b30f2f32c2050b5ab189afc490e835e80366c
+vendor/lib64/libC2D2.so|f2cdaad0fe832316f5ef914e5d91be0359099db1
+vendor/lib64/libc2d30_bltlib.so|3a09505bb743ae39ae48d39babf3ff78c1084b89
+vendor/lib64/libdmabufheap.so|d17e8917fac7d1b452108bc22d8ebdb096cfe25e
+vendor/lib64/libgsl.so|a9336baa7b4d423dafe3fc7a6223640d002f1944
+vendor/lib64/libllvm-glnext.so|90a391d29e21357c6bdf1b092dbdb4b144ac96f2
+vendor/lib64/libllvm-qgl.so|b3d2f13a088b1f0840ba997f7644a47d58105006
