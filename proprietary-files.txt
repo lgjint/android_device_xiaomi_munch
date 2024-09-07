@@ -566,11 +566,6 @@ vendor/etc/configstore/wigig.xml|ae50a99600bfd7b95f2a073943c8018316ca014f
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede0250585a44b01d351bbc301d7a13cc3d783d
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|2163df1cf52ef304f924bcc833947604036f4217
 
-# Connection Security - from LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
--vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk|826829e05cf05ec59b34572269697ba80bb9bfb1
--vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk|da2d4eb23760b6c11e1f60e2953f9073577875f6
-vendor/bin/ssgqmigd|5769f2aef8fdf48f55b01e3d7d3d1aecb860d7e1
-
 # Consumerir
 vendor/lib64/hw/consumerir.default.so
 
@@ -723,12 +718,6 @@ vendor/firmware/a650_zap.b01
 vendor/firmware/a650_zap.b02
 vendor/firmware/a650_zap.elf
 vendor/firmware/a650_zap.mdt
-
-# HotwordEnrollment
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
--system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # IPA-Firmware
 vendor/firmware/ipa_fws.b00
