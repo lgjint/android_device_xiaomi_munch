@@ -698,6 +698,36 @@ vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
+# Graphics (Adreno) - from Quest 2
+vendor/etc/permissions/android.hardware.vulkan.version-1_3.xml|25e934a80e8635de16bd35ebd125a257ffb90c35
+vendor/firmware/a650_gmu.bin|c744acb10afb7c980d333c5b6521e2a18993ff14
+vendor/firmware/a650_sqe.fw|a011deb174929b874fb668d7c8041cfb712b6417
+vendor/lib/egl/eglSubDriverAndroid.so|91cb8b6f10119120810d75f7cb0dee5a7bf88718
+vendor/lib/egl/libEGL_adreno.so|afcd51e6cc8952e2296369061c822cc6db36d604
+vendor/lib/egl/libGLESv1_CM_adreno.so|69198bd1444160a534ff8d45e7855026c0b454ea
+vendor/lib/egl/libGLESv2_adreno.so|1ea9fe95a41b7b61d8c173f767e8ff2370f21ee2
+vendor/lib/egl/libq3dtools_adreno.so|a5c053d937bd9021de7507828a1afbc1e210f1ce
+vendor/lib/egl/libq3dtools_esx.so|b1d214b126dd6a9b3b7cf9a7409cf575828bb473
+vendor/lib/hw/vulkan.adreno.so|6abf411aeb0b2052133ef52ac104c7496aa58266
+vendor/lib/libadreno_app_profiles.so|991a98bef1a4e7e47d5120c2bf0080e1cc78388b
+vendor/lib/libadreno_utils.so|9ad49217498996a5ba88d5dabe05be1a7aea0c76
+vendor/lib/libgsl.so|e09de1a6ee4e950ad0c4dab16e9b19c4184c8226
+vendor/lib/libllvm-glnext.so|2fc5ebe69c9fa2043e518a55f882af6bb53dce06
+vendor/lib/libllvm-qgl.so|fe43daf33ef990125affabcef799b9fbc84512d9
+vendor/lib64/egl/eglSubDriverAndroid.so|0a90ecc6a08ef689b2cfdb345a400ae0a6a3b4f0
+vendor/lib64/egl/libEGL_adreno.so|3628fdd7d400afa1286954b8f85e5357662bf46e
+vendor/lib64/egl/libGLESv1_CM_adreno.so|2ada1e31699fdb72d544200a215f74fe97df7cdf
+vendor/lib64/egl/libGLESv2_adreno.so|9101c0853703fde3933e1223d2c28caa743e5bda
+vendor/lib64/egl/libq3dtools_adreno.so|19aea51d169929c6b9efc82ddef1e48dc2c39c5f
+vendor/lib64/egl/libq3dtools_esx.so|65387dfa149cf2a8616a34c6d481440dfcc495f8
+vendor/lib64/hw/vulkan.adreno.so|52628cf8e3b95bf7aec0ab6b701332edce43ead5
+vendor/lib64/libadreno_app_profiles.so|235286c8c63357cbc8f1cb5c046ac75a9dc219e8
+vendor/lib64/libadreno_utils.so|b63ba67d31f5181a55ff3ec7de8bad2758710f17
+vendor/lib64/libgsl.so|7961a5cfd8e4359d828db81a62d09690134ea411
+vendor/lib64/libllvm-glnext.so|3425e4a90ef9159ef13abcd3d16678fa09ae3ae9
+vendor/lib64/libllvm-qgl.so|f9e52f964dfd030ff4a6780d2ddb853690c7cfbc
+
+
 # GPU firmware
 vendor/firmware/a615_zap.b00
 vendor/firmware/a615_zap.b01
@@ -711,8 +741,6 @@ vendor/firmware/a620_zap.b02
 vendor/firmware/a620_zap.elf
 vendor/firmware/a620_zap.mdt
 vendor/firmware/a630_sqe.fw
-vendor/firmware/a650_gmu.bin
-vendor/firmware/a650_sqe.fw
 vendor/firmware/a650_zap.b00
 vendor/firmware/a650_zap.b01
 vendor/firmware/a650_zap.b02
