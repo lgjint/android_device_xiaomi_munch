@@ -8,7 +8,7 @@
 TARGET_DISABLES_GMS := true
 
 # A/B
-$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/vabc_features.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
@@ -172,7 +172,8 @@ PRODUCT_VENDOR_PROPERTIES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey \
-    android.hardware.drm@1.3.vendor
+    android.hardware.drm@1.3.vendor \
+    libcrypto_shim.vendor
 
 PRODUCT_VENDOR_PROPERTIES += \
     drm.service.enabled=true
